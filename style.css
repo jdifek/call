@@ -1,0 +1,278 @@
+/* General Styles */
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+
+  margin-top: 15px;
+  background-color: #e6e4e4;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+  color: #000;
+}
+
+p {
+  color: #555;
+}
+
+footer {
+  padding-inline: 20px;
+  background-color: #fff;
+  height: 10rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer img {
+  width: 150px;
+}
+
+/* Testimonials Section */
+.testimonials-section {
+  background-color: #272730;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+}
+
+.testimonials-section h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+
+.testimonial-item {
+  background-color: #3a3a4f;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.testimonial-quote {
+  font-style: italic;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+.testimonial-author {
+  font-weight: bold;
+  color: #f4a261;
+}
+/* Buttons */
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.hero-buttons {
+  display: flex;
+  column-gap: 1rem;
+}
+
+.btn-primary {
+  background-color: #000000;
+  color: #fff;
+  border-radius: 15px;
+
+  width: 15rem;
+  height: 3rem;
+}
+
+.header-uakor-p {
+  font-weight: 500;
+  font-size: 20px;
+
+  text-decoration: none;
+  color: #000;
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 15px;
+  border: 1px solid #000000; /* Добавлен стиль 'solid' */
+
+  width: 20rem;
+  height: 3rem;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.hero-content-h1 {
+  max-width: 50%;
+  font-size: 30px;
+  margin: 0;
+}
+
+.hero-content-p {
+  max-width: 50%;
+  font-size: 20px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+/* Services Section */
+.services-section {
+  background-color: #272730;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.services-section-h2 {
+  color: #fff;
+}
+
+.services-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 30%;
+}
+
+/* Partnerships Section */
+.partnerships-section {
+  text-align: center;
+  padding: 50px 0;
+}
+
+.partners img {
+  margin: 10px;
+  width: 100px;
+}
+
+.partnerships-section-p-section {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.5rem;
+
+  font-size: large;
+  font-weight: 500;
+
+  flex-wrap: wrap;
+}
+
+.partnerships-section-h2 {
+  font-size: 50px;
+}
+/* Secure Communication Section */
+.secure-communication-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.secure-communication-content {
+  flex: 1;
+}
+
+.secure-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* FAQ Section */
+.faq-section {
+  background-color: #272730;
+  padding: 50px 0;
+}
+
+.faq-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.faq-item {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 45%;
+  margin-top: 10px;
+}
+
+/* Solutions Section */
+.solutions-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.solutions-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.solution-card {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  width: 45%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-uakor {
+  display: flex;
+  column-gap: 30px;
+}
+
+@media screen and (max-width: 550px) {
+  .header-uakor {
+    display: none;
+  }
+}
